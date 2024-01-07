@@ -19,6 +19,7 @@ export const Projects = observer(() => {
           return (
             <Project
               key={project.id}
+              reverse={project.reverse}
               title={project.title}
               techDescription={project.techDescription}
               description={project.description}

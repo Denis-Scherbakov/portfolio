@@ -29,7 +29,7 @@
 @media (width > 640px) {
   .work__projects__container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 /* md */

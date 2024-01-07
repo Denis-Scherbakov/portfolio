@@ -8,7 +8,7 @@ type ProjectProps = {
   preLoadImgPath: string;
   afterLoadImgPath: string;
   linkToProject: string;
-  id?: string;
+  reverse: boolean;
 };
 
 export const Project = (props: ProjectProps) => {
@@ -19,13 +19,18 @@ export const Project = (props: ProjectProps) => {
     preLoadImgPath,
     afterLoadImgPath,
     linkToProject,
+    reverse,
   } = props;
 
   return (
-    <>
-      <h3 className={styles.project__title}>{title}</h3>
-      <div className={`${styles.project__imgWrapper} ${styles.project__image}`}>
+    <div
+      className={styles.project__wrapper}
+      style={reverse ? { flexDirection: "row-reverse" } : undefined}
+    >
+      <div className={`${styles.project__imgWrapper}`}>
         <img
+          width={900}
+          height={900}
           className="lazy loading"
           src={preLoadImgPath}
           data-src={require(`../../images/${afterLoadImgPath}.png`)}
@@ -44,6 +49,6 @@ export const Project = (props: ProjectProps) => {
           className={styles.project__button}
         />
       </div>
-    </>
+    </div>
   );
 };

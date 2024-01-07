@@ -10,6 +10,7 @@ class ProjectsStore {
       afterLoadImgPath: "waxmoney",
       linkToProject: "1",
       id: "1",
+      reverse: false,
     },
     {
       title: "project title 2",
@@ -19,6 +20,7 @@ class ProjectsStore {
       afterLoadImgPath: "waxmoney",
       linkToProject: "2",
       id: "2",
+      reverse: true,
     },
     {
       title: "project title 3",
@@ -28,6 +30,7 @@ class ProjectsStore {
       afterLoadImgPath: "waxmoney",
       linkToProject: "3",
       id: "3",
+      reverse: false,
     },
   ];
 

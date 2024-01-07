@@ -1,3 +1,7 @@
+.project__wrapper {
+  display: flex;
+}
+
 .project__wrapper:not(:last-child) {
   margin-bottom: 5rem;
 }
@@ -6,7 +10,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10px;
+  flex-basis: 100%;
 }
 
 .project__subtitle {
@@ -21,6 +25,7 @@
 
 .project__imgWrapper {
   position: relative;
+  flex-basis: 100%;
 }
 
 .project__imgWrapper::after {
