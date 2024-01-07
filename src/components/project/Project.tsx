@@ -24,8 +24,11 @@ export const Project = (props: ProjectProps) => {
 
   return (
     <div
-      className={styles.project__wrapper}
-      style={reverse ? { flexDirection: "row-reverse" } : undefined}
+      className={
+        reverse
+          ? `${styles.project__wrapper__reverse}`
+          : `${styles.project__wrapper}`
+      }
     >
       <div className={`${styles.project__imgWrapper}`}>
         <img
