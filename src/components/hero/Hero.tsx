@@ -7,19 +7,19 @@ export const Hero = () => {
     <section className={`${styles.hero} container`}>
       <img
         className={styles.hero__img}
-        src={myPhoto}
+        src="asd"
         alt="Profile"
         width={200}
         height={200}
       />
-      <h2 className={styles.hero__subtitle}>Hi, I'm Ramzi 👋</h2>
+      <h2 className={styles.hero__subtitle}>Привет, я Денис 👋</h2>
       <h1 className={styles.hero__title}>
-        FRONT-END <br /> WEB DEVELOPER.
+        FRONT-END <br /> WEB DEVELOPER
       </h1>
       <p className={styles.hero__description}>
-        A passionate <strong>Frontend / Fullstack-Jamstack</strong> web
-        developer and <strong>UI/UX</strong> enthusiast specialized in building
-        stunning pixel-perfect interactive websites/applications.
+        Страстный <strong>Frontend</strong> web developer и{" "}
+        <strong>UI/UX</strong> энтузиаст. Специализирующийся в создании крутых,
+        pixel-perfect, интерактивных вебсайтов/приложений.
       </p>
       <Button text="Reach Out" className={styles.hero__button} />
     </section>

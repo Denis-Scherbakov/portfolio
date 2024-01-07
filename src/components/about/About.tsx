@@ -7,20 +7,13 @@ export const About = () => {
       <div className={styles.about__content}>
         <h2 className={styles.about__title}>About</h2>
         <p className={styles.about__description}>
-          Hello there! I'm Ramzi, a{" "}
-          <strong>Frontend / Fullstack-Jamstack</strong> web developer based
-          near Montreal. I wake up in the morning, grab a cup of timmies coffee,
-          open up my laptop and build things that live on the web all day,
-          everyday.
+          Привет! Я Денис, <strong>Frontend</strong> web developer из Воронежа.
+          Каждое утро я встаю, наливаю чашечку кофе и создаю приложения, которые
+          делают наш мир удобней.
         </p>
         <p className={styles.about__description}>
-          People who know me say I'm obsessed, that's fair, I am very driven and
-          love learning new things.
-        </p>
-        <p className={styles.about__description}>
-          I recently created a YouTube channel called{" "}
-          <a href="/">Slaying The Dragon</a> where I upload videos on front-end
-          web development topics.
+          Люди которые меня знают, говорят, что я одержим. И это верно. Я очень
+          люблю узнавать что то новое и постоянно совершенствоваться.
         </p>
         <hr className={styles.about__hr} />
         <h3 className={styles.about__subtitle}>Technologies</h3>
@@ -32,8 +25,8 @@ export const About = () => {
           </ul>
           <ul className={styles.about__ul}>
             <li className={styles.about__list}>ReactJS</li>
-            <li className={styles.about__list}>NextJS</li>
-            <li className={styles.about__list}>TailwindCSS</li>
+            <li className={styles.about__list}>Typescript</li>
+            <li className={styles.about__list}>React/Mobx</li>
           </ul>
         </div>
       </div>
@@ -41,7 +34,7 @@ export const About = () => {
         <img
           className={`${styles.about__image} lazy loading`}
           src="https://fakeimg.pl/720"
-          data-src={aboutPicture}
+          data-src={123}
           alt="Me"
           width={428}
           height={428}

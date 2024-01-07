@@ -3,13 +3,16 @@ import styles from "./button.module.css";
 interface ButtonProps {
   text: string;
   className?: string;
+  linkToProject?: string;
 }
 
-export const Button = ({ text, className }: ButtonProps) => {
+export const Button = ({ text, className, linkToProject }: ButtonProps) => {
   return (
     <a
       className={`${styles.button} ${className ? className : ""}`}
-      href="google.com"
+      target="_blank"
+      rel="noreferrer"
+      href={linkToProject}
     >
       {text}
     </a>

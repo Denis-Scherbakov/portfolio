@@ -3,7 +3,6 @@ import "./global.css";
 import { Header } from "./components/header/Header";
 import { Hero } from "./components/hero/Hero";
 import { About } from "./components/about/About";
-import { Featured } from "./components/featured/Featured";
 import { Projects } from "./components/projects/Projects";
 import { Contacts } from "./components/contacts/Contacts";
 import { Footer } from "./components/footer/Footer";
@@ -23,7 +22,6 @@ function App() {
           img.src = `${img.dataset.src}`;
           img.classList.remove("loading");
           img.classList.add("loaded");
-          console.log(img);
           observer.unobserve(img);
         }
       });
@@ -73,7 +71,6 @@ function App() {
       <Header openMobileMenu={openMobileMenu} toggleDarkMode={toggleDarkMode} />
       <Hero />
       <About />
-      <Featured />
       <Projects />
       <Contacts />
       <Footer />
