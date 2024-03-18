@@ -1,5 +1,4 @@
 import styles from "./about.module.css";
-import aboutPicture from "../../images/about.jpg";
 
 export const About = () => {
   return (
@@ -7,13 +6,12 @@ export const About = () => {
       <div className={styles.about__content}>
         <h2 className={styles.about__title}>About</h2>
         <p className={styles.about__description}>
-          Привет! Я Денис, <strong>Frontend</strong> web developer из Воронежа.
-          Каждое утро я встаю, наливаю чашечку кофе и создаю приложения, которые
-          делают наш мир удобней.
+          Почему я хочу хочу пройти на эту вакансию? Потому что считаю, что мои
+          навыки пригодятся на этой вакансии. Так же мне это очень интересно. И
+          хочу развиваться в этом направлении.
         </p>
         <p className={styles.about__description}>
-          Люди которые меня знают, говорят, что я одержим. И это верно. Я очень
-          люблю узнавать что то новое и постоянно совершенствоваться.
+          Заодно сделал иконки с каими технологиями знаком
         </p>
         <hr className={styles.about__hr} />
         <h3 className={styles.about__subtitle}>Technologies</h3>
@@ -31,14 +29,14 @@ export const About = () => {
         </div>
       </div>
       <div className={styles.about__img__wrapper}>
-        <img
+        {/* <img
           className={`${styles.about__image} lazy loading`}
           src="https://fakeimg.pl/720"
           data-src={123}
           alt="Me"
           width={428}
           height={428}
-        />
+        /> */}
       </div>
     </section>
   );

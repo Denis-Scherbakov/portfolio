@@ -10,9 +10,8 @@ export const Projects = observer(() => {
     <section className={`${styles.work} container section`}>
       <h2 className={styles.work__title}>Projects</h2>
       <p className={styles.work__description}>
-        Здесь примеры моего кода, и отдельные части проектов которые показались
-        мне интересными. Конечно же они все изменены во избежании юридических
-        неурядиц.
+        Здесь пример картинок, в дополнение прикрутил им Lazy loading c
+        эффектами размытия при загрузке
       </p>
       <div className={styles.work__projects__container}>
         {projects.map((project) => {
