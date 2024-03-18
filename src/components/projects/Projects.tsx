@@ -10,8 +10,8 @@ export const Projects = observer(() => {
     <section className={`${styles.work} container section`}>
       <h2 className={styles.work__title}>Projects</h2>
       <p className={styles.work__description}>
-        Здесь пример картинок, в дополнение прикрутил им Lazy loading c
-        эффектами размытия при загрузке
+        Здесь пример картинок. В дополнение прикрутил им{" "}
+        <strong>Lazy loading</strong> с эффектами размытия при загрузке
       </p>
       <div className={styles.work__projects__container}>
         {projects.map((project) => {

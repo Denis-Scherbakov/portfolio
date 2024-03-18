@@ -53,7 +53,11 @@ export const MobileMenu = ({
           </button>
         </li>
         <li>
-          <Button text="resume" className={styles.mobile__button} />
+          <Button
+            text="изменить стили"
+            className={styles.mobile__button}
+            toggleDarkMode={toggleDarkMode}
+          />
         </li>
       </ul>
     </div>

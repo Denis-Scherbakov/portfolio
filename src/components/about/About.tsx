@@ -11,7 +11,7 @@ export const About = () => {
           хочу развиваться в этом направлении.
         </p>
         <p className={styles.about__description}>
-          Заодно сделал иконки с каими технологиями знаком
+          Заодно сделал иконки с какими технологиями знаком
         </p>
         <hr className={styles.about__hr} />
         <h3 className={styles.about__subtitle}>Technologies</h3>
