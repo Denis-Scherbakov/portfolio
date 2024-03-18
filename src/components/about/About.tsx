@@ -24,7 +24,7 @@ export const About = () => {
           <ul className={styles.about__ul}>
             <li className={styles.about__list}>ReactJS</li>
             <li className={styles.about__list}>Typescript</li>
-            <li className={styles.about__list}>React/Mobx</li>
+            <li className={styles.about__list}>Redux/Mobx</li>
           </ul>
         </div>
       </div>
